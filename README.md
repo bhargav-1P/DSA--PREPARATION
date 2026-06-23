@@ -1,39 +1,22 @@
-# DSA Progress
-A daily log of my Data Structures & Algorithms practice, following the Striver A2Z sheet in JavaScript.
-# DSA Progress Tracker
+##  Daily Progress Log
 
-## My 6-Month DSA Journey (JavaScript)
+### Day 1 (21-06-2026)
+*  **Two Sum (#1)** - Brute Force $O(n^2)$ | Pattern: Nested Loops
+*  **Best Time to Buy/Sell Stock (#121)** - Brute Force $O(n^2)$ | Pattern: Max Difference with Order
+*  **Notes:** Struggled with translating ideas directly to code syntax. Learned to use the Discussion tab to study structural patterns.
 
-**Started:** [Today's Date]
-**Goal:** 250+ LeetCode problems solved with pattern recognition
-**Resource:** Striver A2Z Sheet (problem list) + freeCodeCamp JS Algorithms
+### Day 2 (22-06-2026)
+*  **Technical Focus:** Code Architecture & Sandbox Environment Setup.
+*  **Notes:** Focused on learning how to read runtime stack traces, using browser DevTools to test execution flows, and organizing repository directories for clean tracking.
 
----
-
-## Pattern Library (Built from Day 1)
-
-| Pattern | First Seen | Problems Solved |
-|---------|------------|-----------------|
-| Brute Force (Nested Loops) | Day 1 | 2 |
-| Hash Map / Complement Search | Day TBD | 0 |
-| Single Pass / Greedy | Day TBD | 0 |
+### Day 3 (23-06-2026)
+*  **Best Time to Buy/Sell Stock (#121)** - **OPTIMAL** $O(n)$ Time | $O(1)$ Space | Pattern: Single Pass / Greedy
+*  **Notes:** * *The Struggle:* Encountered runtime errors by initializing variables incorrectly (`minbuy = 0` trapped the comparison logic) and using invalid global syntax (`min()` instead of `Math.min()`).
+  * *The Fix:* Initialized `minbuy` directly to `prices[0]` and used native `Math.min()` / `Math.max()` to dynamically slide through the array in a single linear pass. Saved $O(n^2)$ nested loop overhead.
 
 ---
 
-## Daily Progress Log
-
-### Day 1 - [Date]
-- ✅ Two Sum (#1) - Brute Force O(n²) - Pattern: Nested Loops
-- ✅ Best Time to Buy/Sell Stock (#121) - Brute Force O(n²) - Pattern: Max Difference with Order
-- 📝 Notes: Struggled with translating idea to code. Learned to use Discussion tab for pattern identification. Committed both solutions with full documentation.
-
----
-
-## Problem Count
-- **Total:** 2
-- **Easy:** 2 | **Medium:** 0 | **Hard:** 0
-- **Patterns Identified:** 2
-
----
-
-## Repository Structure
+##  Problem Count Dashboard
+* **Total Solved:** 2 Unique Problems (1 Optimized successfully)
+* **Easy:** 2 | **Medium:** 0 | **Hard:** 0
+* **Patterns Identified:** 2

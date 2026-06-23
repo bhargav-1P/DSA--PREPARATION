@@ -1,0 +1,40 @@
+JavaScript
+
+
+/**
+ * LeetCode 121: Best Time to Buy and Sell Stock
+ * Time Complexity: O(n) - Single linear pass
+ * Space Complexity: O(1) - Constant memory
+ */
+
+var maxProfit = function(prices) {
+    let minbuy = prices[0];
+    let maxProfit = 0;
+    
+    for (let i = 0; i < prices.length; i++) {
+        minbuy = Math.min(minbuy, prices[i]);
+        let currentProfit = prices[i] - minbuy;
+        maxProfit = Math.max(maxProfit, currentProfit);
+    }
+    
+    return maxProfit;
+};
+* **My Original Code Bug:** 
+  // Runtime Error & Logical Bugs encountered:
+  minbuy = 0; // Logic Trap: Since prices are positive, Math.min(prices[i], 0) always picked 0!
+  minbuy = min(prices[i], minbuy); // Syntax Error: 'min' is not defined globally in JS.
+  
+  /**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let map={};
+    for(i=0;i<nums.length;i++){
+        need=target-nums[i];
+        if( map[need]!==undefined){
+            return [map[need],i];
+        }
+        map[nums[i]]=i;
+    }
