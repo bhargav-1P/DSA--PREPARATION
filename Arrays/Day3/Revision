@@ -19,15 +19,12 @@ var maxProfit = function(prices) {
     
     return maxProfit;
 };
+/*
 * **My Original Code Bug:** 
   // Runtime Error & Logical Bugs encountered:
   minbuy = 0; // Logic Trap: Since prices are positive, Math.min(prices[i], 0) always picked 0!
   minbuy = min(prices[i], minbuy); // Syntax Error: 'min' is not defined globally in JS.
   
-  /**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
  */
 var twoSum = function(nums, target) {
     let map={};
@@ -38,3 +35,15 @@ var twoSum = function(nums, target) {
         }
         map[nums[i]]=i;
     }
+};
+ //===================================
+ var containsDuplicate = function(nums) {
+    let set= new Set();
+    cDup=false
+    for (i=0;i<nums.length;i++){
+        if(set.has(nums[i])){
+            cDup=true;
+        }
+        set.add(nums[i]);
+    } return cDup;
+};

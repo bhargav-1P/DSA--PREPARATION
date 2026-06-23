@@ -6,8 +6,8 @@
 *  **Notes:** Struggled with translating ideas directly to code syntax. Learned to use the Discussion tab to study structural patterns.
 
 ### Day 2 (22-06-2026)
-*  **Technical Focus:** Code Architecture & Sandbox Environment Setup.
-*  **Notes:** Focused on learning how to read runtime stack traces, using browser DevTools to test execution flows, and organizing repository directories for clean tracking.
+* **Contains Duplicate (#217)** - Optimal $O(n)$ | Pattern: Hash Set (Track seen elements)
+* **Notes:** Successfully mapped out the full logic independently before coding. Encountered minor syntax hurdles (Set initialization, tracking `nums[i]` vs. index `i`, and return statement placement) but correctly identified the optimal time and space tradeoffs over brute force $O(n^2)$ and sorting $O(n \log n)$ approaches.
 
 ### Day 3 (23-06-2026)
 *  **Best Time to Buy/Sell Stock (#121)** - **OPTIMAL** $O(n)$ Time | $O(1)$ Space | Pattern: Single Pass / Greedy
