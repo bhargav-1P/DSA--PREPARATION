@@ -11,7 +11,7 @@
 // ============================================
 // TIME: O(n²) - nested loops through array
 // SPACE: O(1) - no extra data structure used
-/* ============================================
+ ============================================
 
 var twoSum = function(nums, target) {
     // Outer loop: pick first element
@@ -28,7 +28,6 @@ var twoSum = function(nums, target) {
     // Problem guarantees exactly one solution, but return empty for completeness
     return [];
 };
-*/
 // ============================================
 // TEST CASE:
 // Input: nums = [2,7,11,15], target = 9

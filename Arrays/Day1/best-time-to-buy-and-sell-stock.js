@@ -40,5 +40,4 @@ var maxProfit = function(prices) {
 // OPTIMIZED SOLUTION: To be added later
 // Pattern: Single Pass / Greedy (Track min price so far)
 // Time: O(n), Space: O(1)
-// Will revisit in evening revision block
 // ============================================

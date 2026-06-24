@@ -19,13 +19,7 @@ var maxProfit = function(prices) {
     
     return maxProfit;
 };
-/*
-* **My Original Code Bug:** 
-  // Runtime Error & Logical Bugs encountered:
-  minbuy = 0; // Logic Trap: Since prices are positive, Math.min(prices[i], 0) always picked 0!
-  minbuy = min(prices[i], minbuy); // Syntax Error: 'min' is not defined globally in JS.
-  
- */
+
 var twoSum = function(nums, target) {
     let map={};
     for(i=0;i<nums.length;i++){
