@@ -1,0 +1,35 @@
+# Valid Palindrome
+
+## Pattern
+
+Two Pointers
+
+## Approach
+
+1. Initialize two pointers:
+
+   * left = 0
+   * right = s.length - 1
+
+2. Compare characters at both pointers.
+
+3. If characters don't match, return false.
+
+4. Move pointers inward:
+
+   * left++
+   * right--
+
+5. If the loop finishes without a mismatch, return true.
+
+## Complexity
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+## Learning Notes
+
+* Recognized the Two Pointers pattern using only a small hint.
+* Derived the algorithm without looking at the full solution.
+* Need more practice converting pseudocode into JavaScript syntax.
