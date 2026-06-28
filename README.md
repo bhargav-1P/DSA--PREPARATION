@@ -36,11 +36,17 @@
 * ✅ **Move Zeroes (#283)** — **OPTIMAL** O(n) Time, O(1) Space | Pattern: Two Pointers (Fast & Slow)
 * ✅ **Valid Palindrome (#125)** — **RECALL** | Pattern: Two Pointers — Re-solved from blank
 
+### Day 8 (28-06-2026)
+* ✅ **Remove Element (#27)** - Brute Force O(n²) | Pattern: Splice + Index Correction
+* ✅ **Remove Element (#27)** - OPTIMAL O(n) | Pattern: Two Pointers (Read & Write Head)
+* ✅ **Contains Duplicate (#217)** - RECALL | Pattern: Hash Set
+* ✅ **Move Zeroes (#283)** - RECALL | Pattern: Fast & Slow Pointers
+
 ---
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 10 Unique Problems
-* **Easy:** 10 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 11 Unique Problems
+* **Easy:** 11 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 6
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
@@ -58,13 +64,14 @@
 | Day 5 | Story → Draw → Section code → Reconstruct | Working method found |
 | Day 6 | 3-Pass + 10x10 JS drills | Foundation strengthening |
 | Day 7 | Independent struggle → Pattern hint → Code from memory | No reference needed |
-
+| Day 8 | Split-screen reference + Process over speed | Syntax & logic separated |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
 | Problem | Learned | Retrieval 1 | Retrieval 2 | Next |
 |---------|---------|-------------|-------------|------|
 | Two Sum (#1) | Day 1 | Day 3 ✅ | Day 5 ✅ | Day 10 |
-| Contains Duplicate (#217) | Day 2 | Day 4 ✅ | Day 6 ✅ | Day 11 |
+| Contains Duplicate (#217) | Day 2 | Day 4 ✅ | Day 6 ✅ | Day 8 ✅ |
 | Valid Palindrome (#125) | Day 4 | Day 5 ✅ | Day 7 ✅ | Day 12 |
-| Move Zeroes (#283) | Day 7 | Day 8 | Day 11 | Day 15 |
+| Move Zeroes (#283) | Day 7 | Day 8 ✅ | Day 11 | Day 15 |
+| Remove Element (#27) | Day 8 | Day 9 | Day 12 | Day 16 |
