@@ -43,10 +43,17 @@
 * ✅ **Move Zeroes (#283)** - RECALL | Pattern: Fast & Slow Pointers
 
 ---
+### Day 9 (29-06-2026)
+* ✅ **Remove Element (#27)** - RECALL | Pattern: Read & Write Pointers
+* ✅ **Remove Duplicates (#26)** - OPTIMAL O(n) | Pattern: Two Pointers (Read & Write Head)
+* ✅ **Move Zeroes (#283)** - RECALL | Pattern: Fast & Slow Pointers
+
+---
+
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 11 Unique Problems
-* **Easy:** 11 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 12 Unique Problems
+* **Easy:** 12 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 6
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
@@ -65,6 +72,7 @@
 | Day 6 | 3-Pass + 10x10 JS drills | Foundation strengthening |
 | Day 7 | Independent struggle → Pattern hint → Code from memory | No reference needed |
 | Day 8 | Split-screen reference + Process over speed | Syntax & logic separated |
+| Day 9 | Morning burnout → Rest → Compressed 6-hour sprint | Recovery works |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
@@ -74,4 +82,5 @@
 | Contains Duplicate (#217) | Day 2 | Day 4 ✅ | Day 6 ✅ | Day 8 ✅ |
 | Valid Palindrome (#125) | Day 4 | Day 5 ✅ | Day 7 ✅ | Day 12 |
 | Move Zeroes (#283) | Day 7 | Day 8 ✅ | Day 11 | Day 15 |
-| Remove Element (#27) | Day 8 | Day 9 | Day 12 | Day 16 |
+| Remove Element (#27) | Day 8 | Day 9 ✅ | Day 12 | Day 16 |
+| Remove Duplicates (#26) | Day 9 | Day 10 | Day 13 | Day 17 |
