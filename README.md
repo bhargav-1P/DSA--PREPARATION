@@ -48,18 +48,25 @@
 * ✅ **Remove Duplicates (#26)** - OPTIMAL O(n) | Pattern: Two Pointers (Read & Write Head)
 * ✅ **Move Zeroes (#283)** - RECALL | Pattern: Fast & Slow Pointers
 
+### Day 10 (30-06-2026)
+* ✅ **First Bad Version (#278)** - Brute Force O(n) | Pattern: Linear Search
+* ✅ **First Bad Version (#278)** - OPTIMAL O(log n) | Pattern: Binary Search
+* ✅ **Remove Duplicates (#26)** - RECALL | Pattern: Read & Write Pointers
+* ✅ **Remove Element (#27)** - RECALL | Pattern: Read & Write Pointers
+* ✅ **Move Zeroes (#283)** - RECALL | Pattern: Fast & Slow Pointers
 ---
 
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 12 Unique Problems
-* **Easy:** 12 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 13 Unique Problems
+* **Easy:** 13 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 6
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
   * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow)
   * Hash Map (Frequency Count)
   * Set + Filter (Intersection with Deduplication)
+  * Binary Search
 
 ---
 
@@ -73,6 +80,7 @@
 | Day 7 | Independent struggle → Pattern hint → Code from memory | No reference needed |
 | Day 8 | Split-screen reference + Process over speed | Syntax & logic separated |
 | Day 9 | Morning burnout → Rest → Compressed 6-hour sprint | Recovery works |
+| Day 10 | Visual learning + 3-Time Recall Drill + Fatigue reset | Binary Search locked in |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
@@ -83,4 +91,5 @@
 | Valid Palindrome (#125) | Day 4 | Day 5 ✅ | Day 7 ✅ | Day 12 |
 | Move Zeroes (#283) | Day 7 | Day 8 ✅ | Day 11 | Day 15 |
 | Remove Element (#27) | Day 8 | Day 9 ✅ | Day 12 | Day 16 |
-| Remove Duplicates (#26) | Day 9 | Day 10 | Day 13 | Day 17 |
+| Remove Duplicates (#26) | Day 9 | Day 10 ✅| Day 13 | Day 17 |
+| First Bad Version (#278) | Day 10 | Day 11 | Day 14 | Day 18 |
