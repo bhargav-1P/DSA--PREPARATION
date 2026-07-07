@@ -65,6 +65,10 @@
 * ✅ **Remove Element (#27)** - RECALL | Pattern: Read & Write Pointers
 * ✅ **First Bad Version (#278)** - RECALL | Pattern: Binary Search
 
+### Day 13 (07-07-2026)
+* ✅ **Squares of a Sorted Array (#977)** — OPTIMAL O(n) Time, O(n) Space | Pattern: Two Pointers (Ends to Center)
+* ✅ **Remove Duplicates (#26)** - RECALL | Pattern: Read & Write Pointers
+* ✅ **First Bad Version (#278)** - RECALL | Pattern: Binary Search
 ---
 
 
@@ -94,6 +98,7 @@
 | Day 10 | Visual learning + 3-Time Recall Drill + Fatigue reset | Binary Search locked in |
 | Day 11 | Two Giants story + Walkthrough translation + Pattern-first thinking | Two Pointers (Ends to Center) locked |
 | Day 12 | Fundamentals + Verbalize while typing + Syntax drilling | Bridge pattern to code |
+| Day 13 | Zero-peek retrievals + Story-to-code with hand-tracing | Retrieval muscle building |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
@@ -106,5 +111,5 @@
 | Remove Element (#27) | Day 8 | Day 9 ✅ | Day 12 ✅| Day 16 |
 | Remove Duplicates (#26) | Day 9 | Day 10 | Day 12 ✅| Day 17 |
 | First Bad Version (#278) | Day 10 | Day 12✅ | Day 14 | Day 18 |
-| Squares of a Sorted Array (#977) | Day 11 | Day 12 | Day 15 | Day 19 |
+| Squares of a Sorted Array (#977) | Day 11 | Day 12 ✅| Day 15 | Day 19 |
 | Search Insert Position (#35) | Day 12 | Day 13 | Day 16 | Day 20 |
