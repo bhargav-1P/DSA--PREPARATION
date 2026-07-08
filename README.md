@@ -69,19 +69,25 @@
 * ✅ **Squares of a Sorted Array (#977)** — OPTIMAL O(n) Time, O(n) Space | Pattern: Two Pointers (Ends to Center)
 * ✅ **Remove Duplicates (#26)** - RECALL | Pattern: Read & Write Pointers
 * ✅ **First Bad Version (#278)** - RECALL | Pattern: Binary Search
+
+### Day 14 (08-07-2026)
+* ✅ **Contains Duplicate (#217)** - RECALL | Pattern: Hash Set — Re-solved from blank
+* ✅ **Maximum Average Subarray I (#643)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Sliding Window (Fixed Size)
+* ✅ **Sliding Window Visualizer** — Built & Deployed | Interactive DOM, CSS, JavaScript
 ---
 
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 15 Unique Problems
-* **Easy:** 15 | **Medium:** 0 | **Hard:** 0
-* **Patterns Identified:** 6
+* **Total Solved:** 16 Unique Problems
+* **Easy:** 16 | **Medium:** 0 | **Hard:** 0
+* **Patterns Identified:** 7
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
   * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow)
   * Hash Map (Frequency Count)
   * Set + Filter (Intersection with Deduplication)
   * Binary Search
+  * Sliding Window
 
 ---
 
@@ -99,6 +105,7 @@
 | Day 11 | Two Giants story + Walkthrough translation + Pattern-first thinking | Two Pointers (Ends to Center) locked |
 | Day 12 | Fundamentals + Verbalize while typing + Syntax drilling | Bridge pattern to code |
 | Day 13 | Zero-peek retrievals + Story-to-code with hand-tracing | Retrieval muscle building |
+| Day 14 | Bug post-mortem + Visualizer build + Index arithmetic mastery | Sliding Window locked |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
@@ -110,6 +117,7 @@
 | Move Zeroes (#283) | Day 7 | Day 8 ✅ | Day 11 | Day 15 |
 | Remove Element (#27) | Day 8 | Day 9 ✅ | Day 12 ✅| Day 16 |
 | Remove Duplicates (#26) | Day 9 | Day 10 | Day 12 ✅| Day 17 |
-| First Bad Version (#278) | Day 10 | Day 12✅ | Day 14 | Day 18 |
+| First Bad Version (#278) | Day 10 | Day 12✅ | Day 14 ✅| Day 18 |
 | Squares of a Sorted Array (#977) | Day 11 | Day 12 ✅| Day 15 | Day 19 |
-| Search Insert Position (#35) | Day 12 | Day 13 | Day 16 | Day 20 |
+| Search Insert Position (#35) | Day 12 | Day 13 ✅| Day 16 | Day 20 |
+| Maximum Average Subarray I (#643) | Day 14 | Day 15 | Day 18 | Day 22 |

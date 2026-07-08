@@ -1,0 +1,132 @@
+// ============================================
+// DAY 14 — July 08, 2026 | DSA
+// ============================================
+// COMPLETED:
+// ✅ Contains Duplicate (#217) — Retrieval from blank
+// ✅ Maximum Average Subarray I (#643) — New Problem (Sliding Window)
+// ✅ Sliding Window Visualizer — Built & Deployed
+// ============================================
+
+
+// ============================================
+// RETRIEVAL: Contains Duplicate (#217)
+// ============================================
+// Pattern: Hash Set (Membership Check)
+// Story: "I put every element into a Set. If an element is already
+//         in the Set, I return true. If I finish the loop, return false."
+// Time: O(n) | Space: O(n)
+// Status: Retrieved from blank ✅
+
+var containsDuplicate = function(nums) {
+    let set = new Set();
+    
+    for (let num of nums) {
+        if (set.has(num)) {
+            return true;  // Found a duplicate
+        }
+        set.add(num);     // Store for future checks
+    }
+    
+    return false;  // No duplicates found
+};
+
+
+// ============================================
+// NEW PROBLEM: Maximum Average Subarray I (#643)
+// ============================================
+
+// PATTERN: Sliding Window (Fixed Size)
+// STORY: "A train window of size k slides across the array.
+//         First, I sum the first k elements (the first window).
+//         Then for each slide: subtract the element that left,
+//         add the element that entered. Keep the maximum sum.
+//         Return max sum divided by k."
+// Time: O(n) | Space: O(1)
+
+
+// ============================================
+// APPROACH 1: Brute Force (Nested Loops)
+// ============================================
+// IDEA: For every possible starting position, calculate the sum
+//       of k elements by looping through them.
+// TIME: O(n × k) — for each of n positions, we sum k elements
+// SPACE: O(1)
+
+var findMaxAverageBrute = function(nums, k) {
+    let maxSum = -Infinity;
+    
+    // Try every possible starting position
+    for (let i = 0; i <= nums.length - k; i++) {
+        let currentSum = 0;
+        
+        // Sum k elements starting from i
+        for (let j = i; j < i + k; j++) {
+            currentSum += nums[j];
+        }
+        
+        // Update max if current window is larger
+        if (currentSum > maxSum) {
+            maxSum = currentSum;
+        }
+    }
+    
+    return maxSum / k;
+};
+
+
+// ============================================
+// APPROACH 2: Sliding Window (Optimal)
+// ============================================
+// IDEA: Calculate first window sum. For each step,
+//       subtract the element that LEFT the window,
+//       add the element that ENTERED the window.
+//       This avoids recalculating the entire sum.
+// TIME: O(n) — single pass after first window
+// SPACE: O(1) — only a few variables
+
+var findMaxAverage = function(nums, k) {
+    // Step 1: Build the first window (Anchor)
+    // This is the baseline — we must have a starting sum
+    let windowSum = 0;
+    for (let i = 0; i < k; i++) {
+        windowSum += nums[i];
+    }
+    
+    // Step 2: Initialize maxSum with a REAL value
+    // This fixes the negative number bug:
+    // If we used 0, all-negative arrays would return 0 (wrong)
+    // Using the first window sum gives a valid baseline
+    let maxSum = windowSum;
+    
+    // Step 3: Slide the window
+    // Start from i = k (the first new element after the window)
+    // NOT from i = 0 (that would be the first window again)
+    for (let i = k; i < nums.length; i++) {
+        // THE MAGIC LINE:
+        // windowSum = old sum - element that LEFT + element that ENTERED
+        // 
+        // nums[i - k] = the element EXITING the window
+        //   (it was at the start of the previous window)
+        // nums[i]     = the element ENTERING the window
+        //   (it's the new element at the end)
+        windowSum = windowSum - nums[i - k] + nums[i];
+        
+        // Update max if we found a larger sum
+        if (windowSum > maxSum) {
+            maxSum = windowSum;
+        }
+    }
+    
+    // Step 4: Return the average
+    return maxSum / k;
+};
+
+// ============================================
+// TEST CASES
+// ============================================
+// findMaxAverage([1,12,-5,-6,50,3], 4) → 12.75
+// findMaxAverage([5], 1) → 5.0
+// findMaxAverage([-1], 1) → -1.0
+
+
+// ============================================
