@@ -74,12 +74,17 @@
 * ✅ **Contains Duplicate (#217)** - RECALL | Pattern: Hash Set — Re-solved from blank
 * ✅ **Maximum Average Subarray I (#643)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Sliding Window (Fixed Size)
 * ✅ **Sliding Window Visualizer** — Built & Deployed | Interactive DOM, CSS, JavaScript
+
+### Day 15 (09-07-2026)
+* ✅ **Maximum Vowels in a Substring (#1456)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Sliding Window (Fixed Size)
+* ✅ **Contains Duplicate (#217)** - RECALL | Pattern: Hash Set — Re-solved from blank (zero peeks)
+* ✅ **Maximum Average Subarray I (#643)** - RECALL | Pattern: Sliding Window — Fixed sum/max order bug
 ---
 
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 16 Unique Problems
-* **Easy:** 16 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 17 Unique Problems
+* **Easy:** 17 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 7
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
@@ -106,6 +111,7 @@
 | Day 12 | Fundamentals + Verbalize while typing + Syntax drilling | Bridge pattern to code |
 | Day 13 | Zero-peek retrievals + Story-to-code with hand-tracing | Retrieval muscle building |
 | Day 14 | Bug post-mortem + Visualizer build + Index arithmetic mastery | Sliding Window locked |
+| Day 15 | Sliding Window on strings + Spaced retrievals (zero peeks)| Sliding Window pattern solidified |
 ---
 
 ## 🔄 Spaced Retrieval Schedule
@@ -120,4 +126,4 @@
 | First Bad Version (#278) | Day 10 | Day 12✅ | Day 14 ✅| Day 18 |
 | Squares of a Sorted Array (#977) | Day 11 | Day 12 ✅| Day 15 | Day 19 |
 | Search Insert Position (#35) | Day 12 | Day 13 ✅| Day 16 | Day 20 |
-| Maximum Average Subarray I (#643) | Day 14 | Day 15 | Day 18 | Day 22 |
+| Maximum Average Subarray I (#643) | Day 14 | Day 15 ✅| Day 18 | Day 22 |
