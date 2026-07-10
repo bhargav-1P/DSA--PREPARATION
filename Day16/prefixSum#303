@@ -1,0 +1,22 @@
+// #977 Squares of Sorted Array
+// PATTERN: Two Pointers Ends to Center
+// DAY 16: Spaced Retrieval
+var sortedSquares = function(nums) {
+    let low=0;
+    let high=nums.length-1;
+    const result= new Array();
+    for(let i=nums.length-1;i>=0;i--){
+        const leftSquare=nums[low]**2;
+        const rightSquare=nums[high]**2;
+        if(leftSquare>rightSquare){
+            result[i]=leftSquare
+            low++
+        }else{
+            result[i]=rightSquare;
+            high--
+        }
+    }
+    return result;
+};
+console.log(sortedSquares([-4,-1,0,3,10])); // [0,1,9,16,100]
+console.log(sortedSquares([-7,-3,2,3,11])); // [4,9,9,49,121]
