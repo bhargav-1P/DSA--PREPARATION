@@ -1,6 +1,147 @@
-// #977 Squares of Sorted Array
-// PATTERN: Two Pointers Ends to Center
-// DAY 16: Spaced Retrieval
+// ============================================
+// DAY 16 — July 10, 2026 | DSA
+// ============================================
+// COMPLETED:
+// ✅ Range Sum Query - Immutable (#303) — New Problem (Prefix Sum)
+// ✅ Squares of a Sorted Array (#977) — Spaced Retrieval
+// ============================================
+
+
+// ============================================
+// NEW PROBLEM: Range Sum Query - Immutable (#303)
+// ============================================
+// PATTERN: Prefix Sum
+// STORY: "The Bank Ledger"
+// 
+// Imagine running a high-volume financial ledger where cash 
+// fluctuations come in as an array: nums = [-2, 0, 3, -5, 2, -1].
+//
+// An auditor repeatedly demands the exact net sum between two 
+// points (e.g., Day 2 to Day 5).
+//
+// THE NAIVE WAY: Every time the auditor asks, you run a loop from
+// Day 2 to 5. If they ask 10,000 times, you run 10,000 loops.
+// This triggers a TLE (Time Limit Exceeded) error.
+//
+// THE PREFIX SUM WAY: You hire a manager to build a cumulative
+// ledger book (this.prefix) ONCE before inspections start.
+// Day 0 starts at a baseline of 0. Each subsequent day takes
+// yesterday's running total and adds today's value.
+//
+// Today's Running Balance = Yesterday's Running Balance + Today's Transaction
+// prefix[i + 1] = prefix[i] + nums[i]
+//
+// When the auditor asks for a range [left, right], you run NO LOOPS.
+// You simply look up the total at the end marker (right + 1) and
+// subtract the total from right before the start marker began (left).
+//
+// TIME: O(n) build | O(1) query | SPACE: O(n)
+
+
+// ============================================
+// APPROACH 1: Brute Force (Loop Every Query)
+// ============================================
+// IDEA: For each query, loop through the range and sum elements.
+// TIME: O(n) per query — if queried m times, O(m × n)
+// SPACE: O(1)
+
+var NumArrayBrute = function(nums) {
+    this.nums = nums;
+};
+
+NumArrayBrute.prototype.sumRange = function(left, right) {
+    let sum = 0;
+    for (let i = left; i <= right; i++) {
+        sum += this.nums[i];
+    }
+    return sum;
+};
+
+
+// ============================================
+// APPROACH 2: Prefix Sum (Optimal)
+// ============================================
+
+// PHASE 1: THE LEDGER CONSTRUCTOR
+// Pre-calculates cumulative balances once upon initialization.
+// We create an array 1 slot larger than 'nums' to safely house
+// the base 0 anchor. This pre-emptively resolves edge cases
+// where 'left' starts at index 0.
+
+var NumArray = function(nums) {
+    // prefix array is always nums.length + 1
+    // prefix[0] = 0 provides an automatic fallback anchor
+    // so ranges starting at index 0 don't cause negative
+    // index lookup crashes.
+    this.prefix = new Array(nums.length + 1).fill(0);
+    
+    // Loop through the input transactions to build
+    // the running balances
+    for (let i = 0; i < nums.length; i++) {
+        // CORE INSIGHT:
+        // Today's total = Yesterday's total + Today's raw input
+        this.prefix[i + 1] = this.prefix[i] + nums[i];
+    }
+};
+
+// PHASE 2: THE INSTANT QUERY METHOD
+// Executes constant-time subtraction to return range bounds instantly.
+// No loops. No if statements. Just one subtraction.
+
+NumArray.prototype.sumRange = function(left, right) {
+    // Direct index subtraction bypasses loop operations entirely.
+    // We pull the final boundary accumulation and strip away
+    // the initial offset balance.
+    // No 'if' statements needed for left === 0 because
+    // prefix[0] is safely pre-filled with 0!
+    return this.prefix[right + 1] - this.prefix[left];
+};
+
+
+// ============================================
+// TRACE EXAMPLE (The Bank Ledger in Action)
+// ============================================
+// nums   = [-2,  0,  3, -5,  2, -1]
+// index  =   0   1   2   3   4   5
+//
+// Building the ledger:
+// prefix[0] = 0                        (baseline, no transactions yet)
+// prefix[1] = prefix[0] + nums[0]     =  0 + (-2) = -2
+// prefix[2] = prefix[1] + nums[1]     = -2 + 0    = -2
+// prefix[3] = prefix[2] + nums[2]     = -2 + 3    =  1
+// prefix[4] = prefix[3] + nums[3]     =  1 + (-5) = -4
+// prefix[5] = prefix[4] + nums[4]     = -4 + 2    = -2
+// prefix[6] = prefix[5] + nums[5]     = -2 + (-1) = -3
+//
+// prefix = [0, -2, -2, 1, -4, -2, -3]
+//
+// Answering queries in O(1):
+// sumRange(0, 2) = prefix[3] - prefix[0] =  1 - 0    =  1 ✅
+// sumRange(2, 5) = prefix[6] - prefix[2] = -3 - (-2) = -1 ✅
+// sumRange(0, 5) = prefix[6] - prefix[0] = -3 - 0    = -3 ✅
+
+
+// ============================================
+// TEST CASES
+// ============================================
+// const obj = new NumArray([-2, 0, 3, -5, 2, -1]);
+// obj.sumRange(0, 2);  // 1
+// obj.sumRange(2, 5);  // -1
+// obj.sumRange(0, 5);  // -3
+
+
+// ============================================
+// RETRIEVAL: Squares of a Sorted Array (#977)
+// ============================================
+// PATTERN: Two Pointers (Ends to Center)
+// STORY: "Two Giants"
+// Two giants stand at opposite ends of the sorted array.
+// I compare their squared heights. The taller giant goes
+// to the last empty spot in my answer array. The used
+// giant leaves, so I move that pointer inward. Repeat.
+// TIME: O(n) | SPACE: O(n)
+// STATUS: Day 16 retrieval — zero peeks ✅
+
 var sortedSquares = function(nums) {
     let low=0;
     let high=nums.length-1;
@@ -20,3 +161,10 @@ var sortedSquares = function(nums) {
 };
 console.log(sortedSquares([-4,-1,0,3,10])); // [0,1,9,16,100]
 console.log(sortedSquares([-7,-3,2,3,11])); // [4,9,9,49,121]
+
+// ============================================
+// DAY 16 NOTES
+// ============================================
+// - Prefix Sum pattern learned: precompute once, query O(1).
+// - The Bank Ledger story makes the pattern intuitive.
+// - Retrieval of #977 was smooth — Two Giants is now automatic.
