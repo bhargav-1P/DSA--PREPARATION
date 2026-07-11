@@ -4,6 +4,7 @@
 // COMPLETED:
 // ✅ Range Sum Query - Immutable (#303) — Spaced Retrieval
 // ✅ Find Pivot Index (#724) — New Problem (Prefix Sum variation)
+// ✅ flavour Town — Built & Deployed
 // ============================================
 
 
@@ -173,21 +174,7 @@ var pivotIndex = function(nums) {
 // pivotIndex([1,2,3]) → -1 (no equilibrium)
 // pivotIndex([2,1,-1]) → 0 (left of index 0 is empty = 0)
 
-
-// ============================================
-// CORE INTERVIEW TAKEAWAYS
-// ============================================
-// 1. TIME EFFICIENCY: Both solutions avoid nested loops,
-//    running at optimal linear O(n) time complexity.
-//
-// 2. OFF-BY-ONE GUARDING: The shifted prefix array
-//    (nums.length + 1) serves as a robust edge-case
-//    catcher for range boundaries starting at index 0.
-//
-// 3. DERIVATION OVER ITERATION: Instead of looping to
-//    calculate rightSum, derive it mathematically:
-//    rightSum = totalSum - leftSum - currentElement
-//    This is the key insight that drops O(n²) to O(n).
+.
 
 
 // ============================================
@@ -197,13 +184,4 @@ var pivotIndex = function(nums) {
 // 
 // #303 in code:     prefix[i+1] = prefix[i] + nums[i]
 // #724 in code:     rightSum = totalSum - leftSum - nums[i]
-//
 // All two use cumulative tracking to avoid nested loops.
-
-
-// ============================================
-// DAY 17 NOTES
-// ============================================
-// - Spaced retrieval of #303 — prefix sum pattern is now solid.
-// - New pattern: Equilibrium/Pivot Index using totalSum derivation.
-// - Key insight: Derive rightSum mathematically instead of looping.

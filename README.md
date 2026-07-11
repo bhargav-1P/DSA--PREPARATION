@@ -231,7 +231,7 @@
 ### Day 17 (11-07-2026)
 * ✅ **Range Sum Query - Immutable (#303)** - RECALL | Pattern: Prefix Sum — Re-solved from blank
 * ✅ **Find Pivot Index (#724)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Prefix Sum (Equilibrium)
-* ✅ **Bella Italia Restaurant Homepage** — Built & Deployed | Semantic HTML
+* ✅ **Flavour Town** — Built & Deployed 
 
 
 ## 📊 Problem Count Dashboard
@@ -266,7 +266,7 @@
 | Day 14 | Bug post-mortem + Visualizer build + Index arithmetic mastery | Sliding Window locked |
 | Day 15 | Sliding Window on strings + Spaced retrievals (zero peeks) | Sliding Window pattern solidified |
 | Day 16 | Bank Ledger story + Prefix Sum in UI + HTML structure drill | Prefix Sum locked |
-| Day 17 | Balanced See-Saw story + Equilibrium pattern + Restaurant homepage | Prefix Sum (Equilibrium) locked |
+| Day 17 | Balanced See-Saw story + Equilibrium pattern + flavour Town | Prefix Sum (Equilibrium) locked |
 
 ---
 
