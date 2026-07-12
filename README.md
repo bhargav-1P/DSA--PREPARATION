@@ -88,7 +88,7 @@
 ### Day 17 (11-07-2026)
 * ✅ **Range Sum Query - Immutable (#303)** - RECALL | Pattern: Prefix Sum — Re-solved from blank
 * ✅ **Find Pivot Index (#724)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Prefix Sum (Equilibrium)
-* ✅ **Bella Italia Restaurant Homepage** — Built & Deployed | Semantic HTML
+* ✅ **Flavour Town mini app** — Built & Deployed | Semantic HTML
 ---
 
 

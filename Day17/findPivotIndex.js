@@ -174,7 +174,6 @@ var pivotIndex = function(nums) {
 // pivotIndex([1,2,3]) → -1 (no equilibrium)
 // pivotIndex([2,1,-1]) → 0 (left of index 0 is empty = 0)
 
-.
 
 
 // ============================================
