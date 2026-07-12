@@ -4,7 +4,27 @@
 // PATTERN: Prefix Sum
 // TIME: O(n) | SPACE: O(1) optimized
 // SOLVED: Without peeking. Paper trace first. Own hands.
+//spaced retrival of First Bad Version
 // ============================================================
+
+var solution = function(isBadVersion) {
+    /**
+     * @param {integer} n Total versions
+     * @return {integer} The first bad version
+     */
+    return function(n) {
+        let low=0;
+        let high=n;
+        while(low < high){
+            let mid= Math.floor(low+(high-low)/2)
+            if(isBadVersion(mid)){
+                high = mid
+            }else{
+                low=mid+1
+            }
+        } return low;
+    };
+};
 
 
 var runningSumBrute = function(nums) {
