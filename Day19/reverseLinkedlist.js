@@ -31,3 +31,16 @@ function reverseList(head) {
 
     return prev;                // new head
 }
+// ============================================
+// RETRIEVAL: Running sum - (#206)
+// ============================================
+var runningSum = function(nums) {
+    let currentSum = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        currentSum += nums[i];      // accumulate running total
+        nums[i] = currentSum;       // store back in place — no extra array
+    }
+
+    return nums;
+};

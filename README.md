@@ -95,11 +95,14 @@
 * ✅ **Find Pivot Index (#724)** — RECALL | Pattern: Prefix Sum (Equilibrium) — Re-solved from blank
 * ✅ **Running Sum of 1d Array (#1480)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Prefix Sum (Direct Application)
 
+### Day 19 (13-07-2026)
+* ✅ **Running Sum of 1d Array (#1480)** - RECALL | Pattern: Prefix Sum — Re-solved from blank
+* ✅ **Reverse Linked List (#206)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Linked List (Iterative)
 
 ## 📊 Problem Count Dashboard
 * **Total Solved:** 19 Unique Problems
 * **Easy:** 19 | **Medium:** 0 | **Hard:** 0
-* **Patterns Identified:** 8
+* **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
   * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow, Ends to Center)
@@ -108,6 +111,8 @@
   * Binary Search
   * Sliding Window
   * Prefix Sum
+  * Linked List 
+
 
 ---
 
@@ -130,6 +135,7 @@
 | Day 16 | Bank Ledger story + Prefix Sum in UI + HTML structure drill | Prefix Sum locked |
 | Day 17 | Balanced See-Saw story + Equilibrium pattern + FlavourTown | Prefix Sum (Equilibrium) locked |
 | Day 18 | Binary Search recall + Equilibrium recall + Running Sum | Prefix Sum family complete |
+| Day 19 | Running Sum recall + reverse linked list | Linked List
 
 ---
 
@@ -149,4 +155,5 @@
 | Maximum Vowels (#1456) | Day 15 | Day 16 | Day 19 | Day 23 |
 | Range Sum Query (#303) | Day 16 | Day 17 ✅ | Day 20 | Day 24 |
 | Find Pivot Index (#724) | Day 17 | Day 18 ✅ | Day 21 | Day 25 |
-| Running Sum of 1d Array (#1480) | Day 18 | Day 19 | Day 22 | Day 26 |
+| Running Sum of 1d Array (#1480) | Day 18 | Day 19 ✅| Day 22 | Day 26 |
+| Reverse Linked List (#206) | Day 19 | Day 20 | Day 23 | Day 27 |
