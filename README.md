@@ -99,9 +99,19 @@
 * ✅ **Running Sum of 1d Array (#1480)** - RECALL | Pattern: Prefix Sum — Re-solved from blank
 * ✅ **Reverse Linked List (#206)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Linked List (Iterative)
 
+### Day 20 (14-07-2026)
+* ✅ **Reverse Linked Lint (#206)** - RECALL | Pattern: Linked list(Iterative) — Re-solved from blank
+* ✅ **Remove Duplicates from Sorted List (#83)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Linked List (Skip Node)
+
+### Day 21 (15-07-2026)
+* ✅ **Reverse Linked List (#206)** - RECALL | Pattern: Linked list(Iterative) — Re-solved from blank
+* ✅ **Linked List Cycle (#141)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Two Pointers (Floyd's Cycle Detection)
+✅ **Linked List Patterns Consolidated** — Mistakes drilled, revision notes created for #206, #83, #141
+
+
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 19 Unique Problems
-* **Easy:** 19 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 20 Unique Problems
+* **Easy:** 20 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
@@ -111,7 +121,7 @@
   * Binary Search
   * Sliding Window
   * Prefix Sum
-  * Linked List 
+  * Linked List (Iterative, Skip Node)
 
 
 ---
@@ -136,6 +146,8 @@
 | Day 17 | Balanced See-Saw story + Equilibrium pattern + FlavourTown | Prefix Sum (Equilibrium) locked |
 | Day 18 | Binary Search recall + Equilibrium recall + Running Sum | Prefix Sum family complete |
 | Day 19 | Running Sum recall + reverse linked list | Linked List
+| Day 20 | Remove Duplicates from Sorted List (#83) + Reverse List recall | Linked List (Skip Node) |
+| Day 21 | Linked List Cycle (#141) + 3‑problem consolidation + mistakes drilled | Linked List (Floyd’s Cycle Detection) |
 
 ---
 
@@ -156,4 +168,8 @@
 | Range Sum Query (#303) | Day 16 | Day 17 ✅ | Day 20 | Day 24 |
 | Find Pivot Index (#724) | Day 17 | Day 18 ✅ | Day 21 | Day 25 |
 | Running Sum of 1d Array (#1480) | Day 18 | Day 19 ✅| Day 22 | Day 26 |
-| Reverse Linked List (#206) | Day 19 | Day 20 | Day 23 | Day 27 |
+| Reverse Linked List (#206) | Day 19 | Day 20 ✅| Day 23 | Day 27 |
+| Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 |
+| Linked List Cycle (#141)  | Day 21 | Day 22 | Day 25 | Day 29 |
+
+
