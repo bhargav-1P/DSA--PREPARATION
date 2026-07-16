@@ -108,6 +108,9 @@
 * ✅ **Linked List Cycle (#141)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Two Pointers (Floyd's Cycle Detection)
 ✅ **Linked List Patterns Consolidated** — Mistakes drilled, revision notes created for #206, #83, #141
 
+### Day 22 (16-07-2026)
+* ✅ **Linked List Cycle (#141)** - RECALL | Pattern: Fast & Slow Pointers — Re-solved from blank
+* ✅ **Middle of Linked List (#876)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Fast & Slow Pointer
 
 ## 📊 Problem Count Dashboard
 * **Total Solved:** 20 Unique Problems
@@ -148,6 +151,7 @@
 | Day 19 | Running Sum recall + reverse linked list | Linked List
 | Day 20 | Remove Duplicates from Sorted List (#83) + Reverse List recall | Linked List (Skip Node) |
 | Day 21 | Linked List Cycle (#141) + 3‑problem consolidation + mistakes drilled | Linked List (Floyd’s Cycle Detection) |
+| Day 22 | Paper-first brute force + story trace + self-error log | Fast & Slow Pointer family complete |
 
 ---
 
@@ -170,6 +174,7 @@
 | Running Sum of 1d Array (#1480) | Day 18 | Day 19 ✅| Day 22 | Day 26 |
 | Reverse Linked List (#206) | Day 19 | Day 20 ✅| Day 23 | Day 27 |
 | Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 |
-| Linked List Cycle (#141)  | Day 21 | Day 22 | Day 25 | Day 29 |
+| Linked List Cycle (#141)  | Day 21 | Day 22 ✅ | Day 25 | Day 29 |
+| Middle of Linked List(#876)  | Day 22 | Day 23  | Day 26 | Day 30 |
 
 
