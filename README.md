@@ -113,8 +113,8 @@
 * ✅ **Middle of Linked List (#876)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Fast & Slow Pointer
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 20 Unique Problems
-* **Easy:** 20 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 21 Unique Problems
+* **Easy:** 21 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
