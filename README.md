@@ -116,13 +116,21 @@
 * ✅ **Middle of Linked List (#876)** - RECALL | Pattern: Fast & Slow Pointers — Re-solved from blank
 * ✅ **Palindrome Linked List (#234)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Fast/Slow + Reverse + Two Pointers Combined
 
+### Day 24 (18-07-2026)
+* ✅ **Palindrome Linked List (#234)** —  RECALL | Pattern: Fast/Slow + Reverse + Two Pointers Combined
+* ✅ **Remove Nth Node From End (#19)** —  Brute-force 
+
+### Day 25 (20-07-2026)
+* ✅ **Remove Nth Node From End (#19)** — RECALL Brute Force | Pattern: Two Pass — Re-solved from blank
+* ✅ **Remove Nth Node From End (#19)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Two Pointer Fixed Gap
+
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 22 Unique Problems
-* **Easy:** 22 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 23 Unique Problems
+* **Easy:** 23 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
-  * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow, Ends to Center)
+  * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow, Ends to Center, Fixed Gap)
   * Hash Map (Frequency Count)
   * Set + Filter (Intersection with Deduplication)
   * Binary Search
@@ -157,6 +165,8 @@
 | Day 21 | Linked List Cycle (#141) + 3‑problem consolidation + mistakes drilled | Linked List (Floyd’s Cycle Detection) |
 | Day 22 | Paper-first brute force + story trace + self-error log | Fast & Slow Pointer family complete |
 | Day 23 | Three-pattern combination (#876 + #206 + compare)| Pattern combination clicked |
+| Day 24 | Rest day — brute force only + recovered energy | Sustainable pace |
+| Day 25 | Brute force recall → Optimal fixed gap derivation | Two Pointer Fixed Gap locked |
 
 ---
 
@@ -181,6 +191,7 @@
 | Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 |
 | Linked List Cycle (#141)  | Day 21 | Day 22 ✅ | Day 25 | Day 29 |
 | Middle of Linked List(#876)  | Day 22 | Day 23 ✅ | Day 26 | Day 30 |
-| Palindrome Linked List (#234) | Day 23 | Day 24 | Day 27 | Day 31 |
+| Palindrome Linked List (#234) | Day 23 | Day 24✅ | Day 27 | Day 31 |
+| Remove Nth Node From End (#19) | Day 25 | Day 26 | Day 29 | Day 33 |
 
 
