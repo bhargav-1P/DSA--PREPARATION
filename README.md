@@ -124,9 +124,15 @@
 * ✅ **Remove Nth Node From End (#19)** — RECALL Brute Force | Pattern: Two Pass — Re-solved from blank
 * ✅ **Remove Nth Node From End (#19)** — OPTIMAL O(n) Time, O(1) Space | Pattern: Two Pointer Fixed Gap
 
+### Day 26 (20-07-2026)
+* ✅ **Remove Nth Node From End (#19)** - RECALL | Pattern: Two Pointer Fixed Gap — Re-solved from blank
+* ✅ **Merge Two Sorted Lists (#21)** — Brute Force O(n+m) Time, O(n+m) Space | Pattern: Array Collection + Sort
+* ✅ **Merge Two Sorted Lists (#21)** — OPTIMAL O(n+m) Time, O(1) Space | Pattern: Dummy Node + Two Pointer Merge
+
+
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 23 Unique Problems
-* **Easy:** 23 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 24 Unique Problems
+* **Easy:** 24 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
@@ -136,7 +142,7 @@
   * Binary Search
   * Sliding Window
   * Prefix Sum
-  * Linked List (Iterative, Skip Node,Fast & Slow, Palindrome Detection)
+  * Linked List (Iterative, Skip Node,Fast & Slow, Palindrome Detection, Dummy Node, Fixed Gap, Two Pointer Merge)
 
 
 ---
@@ -167,6 +173,7 @@
 | Day 23 | Three-pattern combination (#876 + #206 + compare)| Pattern combination clicked |
 | Day 24 | Rest day — brute force only + recovered energy | Sustainable pace |
 | Day 25 | Brute force recall → Optimal fixed gap derivation | Two Pointer Fixed Gap locked |
+| Day 26 | Two retrievals + Brute → Optimal merge | Merge pattern locked, Dummy Node automatic |
 
 ---
 
@@ -192,6 +199,7 @@
 | Linked List Cycle (#141)  | Day 21 | Day 22 ✅ | Day 25 | Day 29 |
 | Middle of Linked List(#876)  | Day 22 | Day 23 ✅ | Day 26 | Day 30 |
 | Palindrome Linked List (#234) | Day 23 | Day 24✅ | Day 27 | Day 31 |
-| Remove Nth Node From End (#19) | Day 25 | Day 26 | Day 29 | Day 33 |
+| Remove Nth Node From End (#19) | Day 25 | Day 26✅ | Day 29 | Day 33 |
+| Merge Two Sorted Lists (#21) | Day 26 | Day 27 | Day 30 | Day 34 |
 
 
