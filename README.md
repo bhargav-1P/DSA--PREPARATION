@@ -129,6 +129,11 @@
 * ✅ **Merge Two Sorted Lists (#21)** — Brute Force O(n+m) Time, O(n+m) Space | Pattern: Array Collection + Sort
 * ✅ **Merge Two Sorted Lists (#21)** — OPTIMAL O(n+m) Time, O(1) Space | Pattern: Dummy Node + Two Pointer Merge
 
+### Day 27 (21-07-2026)
+* ✅ **Palindrome Linked List (#234)** - RECALL | Pattern: Fast/Slow + Reverse + Compare — Spaced retrieval
+* ✅ **Merge Two Sorted Lists (#21)** - RECALL | Pattern: Dummy Node + Two Pointer Merge — Spaced retrieval
+* ✅ **Squares of a Sorted Array (#977)** - RECALL | Pattern: Two Pointers Ends to Center — Overdue retrieval
+
 
 ## 📊 Problem Count Dashboard
 * **Total Solved:** 24 Unique Problems
@@ -174,6 +179,7 @@
 | Day 24 | Rest day — brute force only + recovered energy | Sustainable pace |
 | Day 25 | Brute force recall → Optimal fixed gap derivation | Two Pointer Fixed Gap locked |
 | Day 26 | Two retrievals + Brute → Optimal merge | Merge pattern locked, Dummy Node automatic |
+| Day 27 | Pure retrieval day — 3 spaced recalls (linked list + two pointers)
 
 ---
 
@@ -194,12 +200,12 @@
 | Range Sum Query (#303) | Day 16 | Day 17 ✅ | Day 20 | Day 24 |
 | Find Pivot Index (#724) | Day 17 | Day 18 ✅ | Day 21 | Day 25 |
 | Running Sum of 1d Array (#1480) | Day 18 | Day 19 ✅| Day 22 | Day 26 |
-| Reverse Linked List (#206) | Day 19 | Day 20 ✅| Day 23 | Day 27 |
+| Reverse Linked List (#206) | Day 19 | Day 20 ✅| Day 23 | Day 27 ✅|
 | Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 |
 | Linked List Cycle (#141)  | Day 21 | Day 22 ✅ | Day 25 | Day 29 |
 | Middle of Linked List(#876)  | Day 22 | Day 23 ✅ | Day 26 | Day 30 |
-| Palindrome Linked List (#234) | Day 23 | Day 24✅ | Day 27 | Day 31 |
+| Palindrome Linked List (#234) | Day 23 | Day 24✅ | Day 27✅ | Day 31 |
 | Remove Nth Node From End (#19) | Day 25 | Day 26✅ | Day 29 | Day 33 |
-| Merge Two Sorted Lists (#21) | Day 26 | Day 27 | Day 30 | Day 34 |
+| Merge Two Sorted Lists (#21) | Day 26 | Day 27 ✅| Day 30 | Day 34 |
 
 
