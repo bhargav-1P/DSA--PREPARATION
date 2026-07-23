@@ -133,15 +133,19 @@
 * ✅ **Palindrome Linked List (#234)** - RECALL | Pattern: Fast/Slow + Reverse + Compare — Spaced retrieval
 * ✅ **Merge Two Sorted Lists (#21)** - RECALL | Pattern: Dummy Node + Two Pointer Merge — Spaced retrieval
 * ✅ **Squares of a Sorted Array (#977)** - RECALL | Pattern: Two Pointers Ends to Center — Overdue retrieval
-
+### Day 28 (22-07-2026)
+* ✅ **Reverse Linked List (#206)** - RECALL | Pattern: Three Pointers — Re‑solved from blank (zero peeks)
+* ✅ **Remove Duplicates from Sorted List (#83)** - RECALL | Pattern: Skip Node — Re‑solved from blank (zero peeks)
+* ✅ **Intersection of Two Linked Lists (#160)** — Brute Force O(n*m) Time, O(1) Space | Pattern: Nested Loop Comparison
+* ✅ **Intersection of Two Linked Lists (#160)** — OPTIMAL O(n+m) Time, O(1) Space | Pattern: Two Pointers – Length Difference Alignment
 
 ## 📊 Problem Count Dashboard
-* **Total Solved:** 24 Unique Problems
-* **Easy:** 24 | **Medium:** 0 | **Hard:** 0
+* **Total Solved:** 25 Unique Problems
+* **Easy:** 25 | **Medium:** 0 | **Hard:** 0
 * **Patterns Identified:** 9
   * Brute Force (Nested Loops)
   * Hash Map / Set (Membership Check)
-  * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow, Ends to Center, Fixed Gap)
+  * Two Pointers (Palindrome, In-Place Reversal, Merge from End, Fast & Slow, Ends to Center, Fixed Gap, Length Difference Alignment)
   * Hash Map (Frequency Count)
   * Set + Filter (Intersection with Deduplication)
   * Binary Search
@@ -180,6 +184,7 @@
 | Day 25 | Brute force recall → Optimal fixed gap derivation | Two Pointer Fixed Gap locked |
 | Day 26 | Two retrievals + Brute → Optimal merge | Merge pattern locked, Dummy Node automatic |
 | Day 27 | Pure retrieval day — 3 spaced recalls (linked list + two pointers)
+| Day 28 | Brute + Optimal for intersection + two retrievals | Length‑difference pattern locked |
 
 ---
 
@@ -201,11 +206,12 @@
 | Find Pivot Index (#724) | Day 17 | Day 18 ✅ | Day 21 | Day 25 |
 | Running Sum of 1d Array (#1480) | Day 18 | Day 19 ✅| Day 22 | Day 26 |
 | Reverse Linked List (#206) | Day 19 | Day 20 ✅| Day 23 | Day 27 ✅|
-| Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 |
+| Remove Duplicates from Sorted List (#83) | Day 20 | Day 21 ✅| Day 24 | Day 28 ✅ |
 | Linked List Cycle (#141)  | Day 21 | Day 22 ✅ | Day 25 | Day 29 |
 | Middle of Linked List(#876)  | Day 22 | Day 23 ✅ | Day 26 | Day 30 |
 | Palindrome Linked List (#234) | Day 23 | Day 24✅ | Day 27✅ | Day 31 |
 | Remove Nth Node From End (#19) | Day 25 | Day 26✅ | Day 29 | Day 33 |
 | Merge Two Sorted Lists (#21) | Day 26 | Day 27 ✅| Day 30 | Day 34 |
+| Intersection of Two Linked Lists (#160) | Day 28 | Day 29 | Day 32 | Day 36 |
 
 
